@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30f198f5-753c-4ecd-8833-a0852597f376" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/views/hello.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/index.js" afterPath="$PROJECT_DIR$/week1/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/package-lock.json" afterPath="$PROJECT_DIR$/week1/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/package.json" afterPath="$PROJECT_DIR$/week1/package.json" />
     </list>
@@ -32,8 +33,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week1/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,8 +43,18 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week1/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="90">
+              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1/views/hello.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -56,6 +67,7 @@
       <list>
         <option value="package_json" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -68,6 +80,7 @@
         <option value="$PROJECT_DIR$/week1/app.js" />
         <option value="$PROJECT_DIR$/week1/package.json" />
         <option value="$PROJECT_DIR$/week1/node_modules/index.js" />
+        <option value="$PROJECT_DIR$/week1/views/hello.html" />
         <option value="$PROJECT_DIR$/week1/index.js" />
       </list>
     </option>
@@ -129,7 +142,7 @@
               <item name="M101JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="M101JS" type="462c0819:PsiDirectoryNode" />
               <item name="week1" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,6 +157,8 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/week1/index.js&#10;true" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.2.1" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -177,12 +192,12 @@
       <updated>1502725789673</updated>
       <workItem from="1502725792607" duration="71000" />
       <workItem from="1502725950729" duration="2365000" />
-      <workItem from="1502756595224" duration="1097000" />
+      <workItem from="1502756595224" duration="1783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3533000" />
+    <option name="totallyTimeSpent" value="4219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1008" extended-state="6" />
@@ -243,16 +258,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/views/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="90">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding />
         </state>
       </provider>

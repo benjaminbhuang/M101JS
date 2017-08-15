@@ -2,7 +2,9 @@
   "name": "week1",
   "version": "0.0.1",
   "dependencies": {
+    "consolidate": "^0.14.5",
     "express": "^4.15.4",
-    "mongodb": "^2.2.31"
+    "mongodb": "^2.2.31",
+    "nunjucks": "^3.0.1"
   }
 }
