@@ -15,7 +15,7 @@ function errorHandler(err, req, res,next) {
     console.error(err.message);
     console.error(err.stack);
     res.status(500);
-    res.render('error_template', {error: err});
+    res.render('error_template', {'error': err});
 }
 
 app.use(errorHandler);
@@ -48,7 +48,7 @@ MongoClient.connect('mongodb://localhost:27017/video', function(err, db) {
     assert.equal(null, err);
     console.log("Successfully connected to MongoDB.");
 
-    app.get('/', function(req, res){
+    app.post('/movies', function(req, res){
 
         db.collection('movies').find({}).toArray(function(err, docs) {
             res.render('movies', { 'movies': docs } );
