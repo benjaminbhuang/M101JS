@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30f198f5-753c-4ecd-8833-a0852597f376" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/hw1-1/dump/m101/hw1_1.bson" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/hw1-2/dump/m101/hw1_2.bson" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/hw1-3/dump/m101/hw1_3.bson" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/hw1-1/dump/m101/hw1_1.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/hw1-2/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/hw1-2/dump/m101/hw1_2.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/hw1-2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/hw1-3/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/hw1-3/dump/m101/hw1_3.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/hw1-3/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/hw1-3/views/hello.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/movie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/views/enter_movies.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/index.js" afterPath="$PROJECT_DIR$/week1/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/views/error_template.html" afterPath="$PROJECT_DIR$/week1/views/error_template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/views/fruit_picker.html" afterPath="$PROJECT_DIR$/week1/views/fruit_picker.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/views/movies.html" afterPath="$PROJECT_DIR$/week1/views/movies.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,61 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week1/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week1/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="249">
+              <caret line="54" column="11" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="56" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week1/hw1-2/app.js">
+      <file leaf-file-name="movie.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1/movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week1/hw1-3/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week1/hw1-3/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week1/hw1-2/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="339">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,18 +42,8 @@
       <file leaf-file-name="fruit_picker.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week1/views/fruit_picker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error_template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week1/views/error_template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="390">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -113,18 +52,18 @@
       <file leaf-file-name="movies.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week1/views/movies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="10" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week1/views/hello.html">
+      <file leaf-file-name="enter_movies.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week1/views/enter_movies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,8 +75,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package_json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -150,13 +89,16 @@
         <option value="$PROJECT_DIR$/week1/app.js" />
         <option value="$PROJECT_DIR$/week1/package.json" />
         <option value="$PROJECT_DIR$/week1/node_modules/index.js" />
-        <option value="$PROJECT_DIR$/week1/views/movies.html" />
         <option value="$PROJECT_DIR$/week1/views/hello.html" />
         <option value="$PROJECT_DIR$/week1/views/fruit_picker.html" />
         <option value="$PROJECT_DIR$/week1/views/error_template.html" />
         <option value="$PROJECT_DIR$/week1/index.js" />
         <option value="$PROJECT_DIR$/week1/hw1-3/package.json" />
         <option value="$PROJECT_DIR$/week1/hw1-3/app.js" />
+        <option value="$PROJECT_DIR$/week1/views/movie.js" />
+        <option value="$PROJECT_DIR$/week1/movie.js" />
+        <option value="$PROJECT_DIR$/week1/views/movies.html" />
+        <option value="$PROJECT_DIR$/week1/views/enter_movies.html" />
       </list>
     </option>
   </component>
@@ -219,19 +161,6 @@
               <item name="M101JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="M101JS" type="462c0819:PsiDirectoryNode" />
               <item name="week1" type="462c0819:PsiDirectoryNode" />
-              <item name="hw1-3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="M101JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="M101JS" type="462c0819:PsiDirectoryNode" />
-              <item name="week1" type="462c0819:PsiDirectoryNode" />
-              <item name="hw1-3" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="M101JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="M101JS" type="462c0819:PsiDirectoryNode" />
-              <item name="week1" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -286,12 +215,12 @@
       <updated>1502725789673</updated>
       <workItem from="1502725792607" duration="71000" />
       <workItem from="1502725950729" duration="2365000" />
-      <workItem from="1502756595224" duration="6782000" />
+      <workItem from="1502756595224" duration="8881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9218000" />
+    <option name="totallyTimeSpent" value="11317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1008" extended-state="6" />
@@ -357,42 +286,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week1/views/movies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1/views/fruit_picker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week1/views/error_template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -423,8 +320,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/hw1-3/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="327">
+          <caret line="26" column="83" lean-forward="true" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/views/fruit_picker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="54" column="11" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="56" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/views/movies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/views/enter_movies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
