@@ -2,11 +2,13 @@ var express = require('express'),
     app = express(),
     engines = require('consolidate'),
     MongoClient = require('mongodb').MongoClient,
-    assert = require('assert');
+    assert = require('assert'),
+    bodyParser = require('body-parser');
 
 app.engine('html', engines.nunjucks);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
+app.use(bodyParser());
 
 
 function errorHandler(err, req, res,next) {
@@ -25,6 +27,19 @@ app.get('/:name', function (req, res, next) {
     var getvar2 = req.query.getvar2;
 
     res.render('hello', {name: name, getvar1: getvar1, getvar2: getvar2});
+});
+
+app.get('/', function (req, res, next) {
+    res.render('fruit_picker', {'fruits': ['apple', 'orange', 'banana', 'peach']});
+});
+
+app.post('/favorite_fruit', function (req, res, next) {
+    var favorite = req.body.fruit;
+    if(typeof favorite == 'undefined') {
+        next(Error('Please choose a fruit!'));
+    }else{
+        res.send('your favorite fruit is '+ favorite);
+    }
 });
 
 
